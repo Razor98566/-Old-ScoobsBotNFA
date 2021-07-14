@@ -77,7 +77,10 @@ namespace Scoobs_Bot_NFA
 
         private async Task MessageReceived(SocketMessage message)
         {
+            if (message != null && message.Author.IsBot) return;
+            
             var mes = message.ToString().ToLower();
+            if (mes.Contains("!wedge")) return;
             if (mes.Contains("wedges") || mes.Contains("wedge") || 
                 mes.Contains("kartoffelprodukt") || mes.Contains("kartoffelprodukte"))
             {

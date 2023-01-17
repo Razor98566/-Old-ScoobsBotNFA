@@ -6,7 +6,7 @@ I started this project mainly to get comfy with C# and get some nice features fo
 
 Features included:
 
-- Send a random word from a predefined list as a message with an included google search link (dumb copy paste, quality of results may vary)
+- Send a random word from a predefined list as a message with a google search link included (dumb copy paste, quality of results may vary)
   - The random word list can be customised under /Scoobs Bot NFA/Sources/words.txt
 - Dice roll with specified amount of sides and dices
 - Fully functional game of Hangman in the chat

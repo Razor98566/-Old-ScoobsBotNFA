@@ -1,3 +1,6 @@
+This one no longer works
+Please take a look at the new Scoobs Bot NFA Repo
+
 # Scoobs Bot NFA
 
 Scoobs Bot NFA is a small Discord made in C# that is covering some features I wanted to have on my server.
